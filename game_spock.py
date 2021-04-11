@@ -1,11 +1,12 @@
 import random
 
+points = 0
+
 def gierka():
+
 
     computer_choice = ["Rock", "Paper", "Scissor", "Lizard", "Spock"]
     x = input('Type: Rock, Paper, Scissor, Lizard, Spock\n')
-    n = 0
-    points = n
 
     if x == random.choice(computer_choice):
         print('Ok. The number of points equals ' + str( points + 1 ))
@@ -38,3 +39,4 @@ def gierka():
         print("Thanks for playing")
 
 gierka()
+

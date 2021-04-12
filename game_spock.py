@@ -2,6 +2,7 @@ import random
 
 points = 0
 
+
 def gierka():
     global points
     
@@ -28,7 +29,6 @@ def gierka():
     else:
         print('Wrong. The number of points equals ' + str( points ))
 
-        
     if points == 3:
         print("You won, Congratulations!")
     elif points > 0:
@@ -41,5 +41,6 @@ def gierka():
         gierka()
     else:
         print("Thanks for playing")
+
 
 gierka()

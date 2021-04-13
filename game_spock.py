@@ -40,7 +40,7 @@ def gierka():
     if finish == "yes":
         gierka()
     else:
-        print("Thanks for playing")
+        print("Thanks for playing the game")
 
 
 gierka()
